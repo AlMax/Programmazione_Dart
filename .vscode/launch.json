@@ -6,6 +6,13 @@
     "configurations": [
         
         {
+            "name": "Dart",
+            "type": "dart",
+            "request": "launch",
+            "program": "bin/main.dart"
+        },
+        
+        {
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart"
