@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'dart:math';
 
+//si potrebbe usare la libreria Equatable per estendere la classi; fa un overrirde automatico degli operatori
+
 abstract class Shape {
   double get perimeter;
 
@@ -18,6 +20,15 @@ class Square extends Shape {
   void printPerimetro() {
     stdout.write('Quadrato: ');
     super.printPerimetro();
+  }
+
+  @override
+  String toString() => 'Perimeter of Square is $perimeter';
+
+  @override
+  bool operator ==(covariant Square other) {
+    //covariant fa si che la comparazione sia possibile solo tra questi oggetti
+    return side == other.side;
   }
 }
 
@@ -41,4 +52,8 @@ void main() {
 
   quadrato.printPerimetro();
   cerchio.printPerimetro();
+
+  print(quadrato);
+
+  print(quadrato == Square(side: 20));
 }

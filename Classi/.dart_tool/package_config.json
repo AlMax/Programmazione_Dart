@@ -2,6 +2,18 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "collection",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/collection-1.14.13",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "equatable",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/equatable-1.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "meta",
       "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/meta-1.2.4",
       "packageUri": "lib/",
@@ -20,7 +32,7 @@
       "languageVersion": "2.10"
     }
   ],
-  "generated": "2020-11-28T18:04:11.329545Z",
+  "generated": "2020-11-29T11:33:08.726405Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }
