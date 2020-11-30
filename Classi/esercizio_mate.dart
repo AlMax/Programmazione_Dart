@@ -2,6 +2,9 @@ import 'dart:io';
 import 'dart:math';
 
 //si potrebbe usare la libreria Equatable per estendere la classi; fa un overrirde automatico degli operatori
+/*Un altro strumento sono le mixins. Se ho 3 sottoclasssi ma solo 2 di queste usando uno stesso metodo,
+posso fare in modo che creo: mixin Nuotare{ metodi } e scrivere tipo class Fish extends Animal with Nuoatre */
+/*extension 'name extension' on 'Object' o qualsiasi altra classe ti permette di scrivere die metodi che estendono la classe */
 
 abstract class Shape {
   double get perimeter;
