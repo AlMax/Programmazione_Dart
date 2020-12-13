@@ -3,25 +3,25 @@
   "packages": [
     {
       "name": "collection",
-      "rootUri": "file:///Users/almax/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/collection-1.14.13",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
     {
       "name": "equatable",
-      "rootUri": "file:///Users/almax/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/equatable-1.2.5",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/almax/.pub-cache/hosted/pub.dartlang.org/meta-1.2.4",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/meta-1.2.4",
       "packageUri": "lib/",
       "languageVersion": "1.12"
     },
     {
       "name": "pedantic",
-      "rootUri": "file:///Users/almax/.pub-cache/hosted/pub.dartlang.org/pedantic-1.9.2",
+      "rootUri": "file:///C:/Users/aliha/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pedantic-1.9.2",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -32,7 +32,7 @@
       "languageVersion": "2.10"
     }
   ],
-  "generated": "2020-12-05T12:44:35.322394Z",
+  "generated": "2020-12-13T13:14:09.008839Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }
